@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    for (int i = 0; i < 3; i++)
+    while(true)
     {
-        printf("woof.\n");
+        printf("meow.\n");
     }
 }
