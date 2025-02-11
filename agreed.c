@@ -3,14 +3,10 @@
 
 int main(void)
 {
-    char answer = get_char("Você gosta de tomate?  ")
-
-    if (answer == 'y' || answer == 'C')
+    int counter = 3;
+    while(counter > 0)
     {
-        printf("Legal\n");
-    }
-    else if (answer == 'y' || answer == 'Y')
-    {
-        printf("Tchau!\n");
+        printf("meow.\n");
+        counter = counter - 1;
     }
 }
