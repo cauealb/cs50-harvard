@@ -5,15 +5,15 @@ int calc(void)
 
 int main(void)
 {
-    int x = get_int("x: ");;
-    int y = get_int("y: ")
+    int x = get_int("x: ");
+    int y = get_int("y: ");
 
-    int z = calc(x, y)
+    int z = calc(x, y);
 
-    printf("%i\n", z)
+    printf("%i\n", z);
 }
 
 int calc(int a, int b)
 {
-    return a + b
+    return a + b;
 }
