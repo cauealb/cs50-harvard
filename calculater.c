@@ -1,21 +1,11 @@
-#include <stdio.h>
 #include <cs50.h>
+#include <stdio.h>
 
 int main(void)
 {
-    int n = get_int("Size: ");
-    while(n < 2)
-    {
-        n = get_int("Size: ");
-    }
+    int x = get_int("x: ");
+    int y = get_int("y: ");
 
-
-    for(int i = 0; i < 3; i++)
-    {
-        for(int j = 0; j < 3: j++)
-        {
-            printf("#");
-        }
-        printf("\n");
-    }
+    float z = (float) x / (float) y
+    printf("%.5f\n", z)
 }
